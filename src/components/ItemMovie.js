@@ -1,4 +1,5 @@
 import React from 'react';
+import withColor from './hoc/withColor';
 
 const ItemMovie = ({ movie }) => {
     return (
@@ -11,4 +12,4 @@ const ItemMovie = ({ movie }) => {
     );
 };
 
-export default ItemMovie;
+export default withColor(ItemMovie);
