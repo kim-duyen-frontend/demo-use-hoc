@@ -1,5 +1,5 @@
 import React from 'react';
-import withColor from './hoc/withColor';
+import withColor from '../hoc/withColor';
 
 const ItemMovie = ({ movie }) => {
     return (

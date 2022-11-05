@@ -1,5 +1,5 @@
 import React from 'react';
-import withFetch from './hoc/withFetch';
+import withFetch from '../hoc/withFetch';
 import ItemMovie from './ItemMovie';
 
 const MovieList = ({ listMovie }) => {
