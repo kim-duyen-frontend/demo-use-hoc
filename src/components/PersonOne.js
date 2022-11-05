@@ -1,4 +1,6 @@
-function PersonOne() {
+import withHOC from "../hoc/withHOC";
+
+function PersonOne({ number, handleIncrementMoney }) {
     return (
         <div>
             <h1>Hello John</h1>
@@ -10,4 +12,4 @@ function PersonOne() {
     );
 }
 
-export default PersonOne;
+export default withHOC(PersonOne);
